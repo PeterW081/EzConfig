@@ -1,0 +1,5 @@
+# Generated from CLion C/C++ Code Style settings
+BasedOnStyle: Microsoft
+SortIncludes: Never
+ColumnLimit: 256 # 80、128、256
+FixNamespaceComments: false
