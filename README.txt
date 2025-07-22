@@ -3,5 +3,6 @@ cd "${CxxProjects:?}"
 touch ./.clang-format
 
 ###
-touch ~/.gitignore_global
-git config --global core.excludesFile ~/.gitignore_global
+mkdir ~/.gitconfig.d/
+touch ~/.gitconfig.d/gitignore_global
+git config --global core.excludesFile ~/.gitconfig.d/gitignore_global
